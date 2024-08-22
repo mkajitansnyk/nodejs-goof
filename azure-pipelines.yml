@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: alpine-latest
+  vmImage: alpine-3.18
 
 steps:
 - script: echo Hello, world!
